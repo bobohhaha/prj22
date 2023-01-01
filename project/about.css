@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+body {
+    height: 100vh;
+	width: 100%;
+	background:url('overlay.png'),url('banner.jpg');
+	background-position: top;
+	background-size:cover;
+	background-repeat: no-repeat;
+  font-family: "Raleway",sans-serif;
+}
+.banner{
+	height: 100vh;
+	width: 100%;
+	background:url('overlay.png'),url('banner.jpg');
+	background-position: top;
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.banner .navbar{
+	margin-top:1%;
+}
+.banner .navbar-brand{
+	color: #fff;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;
+}
+.banner .nav{
+	margin-right:10%; 
+}
+.banner .nav li a{
+	color:#aaa;
+	font-size: 1.2em;
+}
+.testimotional{
+  margin-top: -3%;
+  border:2px solid transparent;
+  border-radius: 10px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  padding: 0 25px 25px 25px;
+}
+.testimotional:hover
+{
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  background-color: #2f421dc4;
+
+}
+.testimotional img{
+  width: 25% 3px;
+}
+article h1{
+  margin-top: 3%;
+  
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: unset;
+  text-decoration: double;
+}
+article :after{
+ content: "";
+ height: 5px;
+ width: 225px;
+ display: block;
+ margin: auto;
+}
+article img{
+  height: 200px;
+  width: 200px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-top: 30px
+}
+blockquote{
+  font-family: sans-serif;
+  font-size: 22px;
+  margin-top: 3%;
+}
+article h5{
+  text-transform: unset;
+  font-size: 30px;
+  margin-top: 1%;
+}
+article p {
+  margin-top: 1%;
+  font-size: 15px;
+}
+.btn {
+  margin-top: 1%;
+  width: 20%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: #5b7f3c;
+  color: #f5f5f5;
+  border-radius: 10px;
+  cursor: pointer;
+}

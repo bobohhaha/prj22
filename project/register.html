@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="center">
+        <button id="showlogin">Register</button>
+    </div>
+    <div class="popup">
+    <div class="close-btn">&times;</div>
+    <div class="form" id="signup">
+        <h2>Register</h2>
+        <div class="form-elem">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username">
+            <small style="color: #c62828;"></small>
+        </div>
+        <div class="form-elem">
+            <label for="date">Date de nessance </label>
+            <input type="date" id="date">
+        </div>
+        <div class="form-elem">
+            <label for="email">Email </label>
+            <input type="text" id="email" placeholder="Enter Email">
+            <small style="color: #c62828;"></small>
+        </div>
+        <div class="form-elem">
+            <label for="password">Password </label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <small style="color: #c62828;"></small>
+        </div>
+        <div class="form-elem">
+            <label for="confirm-password">Check Password</label>
+            <input type="password" id="confirm-password" placeholder="Enter Password">
+            <small style="color: #c62828;"></small>
+        </div>
+        <div class="form-elem">
+            <input type="checkbox" id="agreement">
+            <label for="agreement">im agree with the rules</label>
+        </div>
+        <div class="form-elem">
+            <button id="mybutton">register</button>
+        </div>
+    </div>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>
